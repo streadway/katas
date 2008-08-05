@@ -1,0 +1,14 @@
+# -*- ruby -*-
+
+require 'rubygems'
+require 'hoe'
+
+$: << './lib'
+
+require 'compounds.rb'
+
+Hoe.new('compounds', Compounds::VERSION) do |p|
+  p.developer('Cameron', 'cameron@mintdigital.com')
+end
+
+# vim: syntax=Ruby
